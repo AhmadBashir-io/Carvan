@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title><link href="https://fonts.googleapis.com/css?family=Jura:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/index.css">
+  </head>
+  <body class="preowned">
+
+      <h1 class="title">Preowned Cars</h1>
+      <div class="sub-menu" style="margin:auto;">
+        <a href="#" onclick="getBenz()">Mercedes-Benz</a>
+        <a href="#" onclick="getAudi()">Audi</a>
+        <a href="#" onclick="getPorsche()">Porsche</a>
+      </div>
+      <div class="the-content">
+
+    <div  id="benz">
+              <h2 class="subtitle center">Mercedes-Benz</h2>
+
+              <div class="hybrid">
+                <p class="small-title">Hybrid & Electric</p>
+
+  If the Mercedes-AMG GT is a reinvention of the pure sports car, there's only one way to make it even purer: Open it up. With the new GT roadsters, the handcrafted AMG performance that's born on the track has been unleashed into an open sky.                </br>
+                <div class="img">
+                  <img src="../img/hybrid.JPG"width="100%"  >
+
+                </div>
+                </br>
+              </div>
+              <div class="convertibles">
+                <p class="small-title">Convertibles & Roadsters</p>
+
+                With the character of a Mercedes-Benz SUV, a sporting soul and a compact footprint, the redesigned GLA is agile, adventurous and adaptable. It's at home in the city, eager when you're far from home, and a perfect fit for today, and tomorrow.
+                </br>
+                <div class="img">
+                  <img src="../img/amg.JPG"width="100%"  >
+
+                </div>
+                </br>
+              </div>
+            <div class="sedan">
+              <p class="small-title">Sedans</p>
+                E‑Class Sedan
+                More than a stroke of genius. A masterpiece of intelligence</br>
+                This isn't just the most advanced E-Class yet. With technologies never before offered on a production car, the E-Class writes a new chapter in the story of driving: Where cars can talk to each other, and look out for you, in ways you never imagined.
+              </br>
+              <div class="img">
+                <img src="../img/sedan.JPG"width="100%"  >
+
+              </div>                </br>
+
+            </div>
+            <div class="coupes">
+              <p class="small-title">Coupes</p>
+              S‑Class Coupe
+              More than a stroke of genius. A masterpiece of intelligence</br>
+              This isn't just the most advanced E-Class yet. With technologies never before offered on a production car, the E-Class writes a new chapter in the story of driving: Where cars can talk to each other, and look out for you, in ways you never imagined.
+              </br>
+              <div class="img">
+                <img src="../img/coupe.JPG"width="100%"  >
+
+              </div>
+              </br>
+            </div>
+            <div class="suv">
+              <p class="small-title">SUV</p>
+
+              With the character of a Mercedes-Benz SUV, a sporting soul and a compact footprint, the redesigned GLA is agile, adventurous and adaptable. It's at home in the city, eager when you're far from home, and a perfect fit for today, and tomorrow.
+              </br>
+              <div class="img">
+                <img src="../img/suv.JPG"width="100%"  >
+
+              </div>
+              </br>
+            </div>
+
+
+  </div>
+  <div id="audi">
+    <div class="a4">
+      <p class="small-title">2018 Audi A4</p>
+
+      <div class="img">
+        <img src="../img/a4.JPG"width="100%"  >
+
+      </div>
+      </br>
+    </div>
+    <div class="r8">
+      <p class="small-title">2018 Audi R8</p>
+
+      <div class="img">
+        <img src="../img/r8.JPG"width="100%"  >
+
+      </div>
+      </br>
+    </div>
+    <div class="q7">
+      <p class="small-title">2018 Audi Q7</p>
+
+      <div class="img">
+        <img src="../img/q7.JPG"width="100%"  >
+
+      </div>
+      </br>
+    </div>
+  </div>
+  <div id="porsche">
+    <div class="911">
+      <p class="small-title">Porsche 911 Turbo S</p>
+
+      <div class="img">
+        <img src="../img/911.JPG"width="100%"  >
+
+      </div>
+      </br>
+    </div>
+    <div class="718">
+      <p class="small-title">Porsche 718 Boxster S</p>
+
+      <div class="img">
+        <img src="../img/718.JPG"width="100%"  >
+
+      </div>
+      </br>
+    </div>
+    <div class="cayenne">
+      <p class="small-title">Porsche Cayenne "Platinum Ed."</p>
+
+      <div class="img">
+        <img src="../img/cayenne.JPG"width="100%"  >
+
+      </div>
+      </br>
+    </div>
+    <div class="macan">
+       <p class="small-title">Porsche Macan GTS</p>
+
+       <div class="img">
+         <img src="../img/macan.JPG"width="100%"  >
+
+       </div>
+       </br>
+     </div>
+     <div class="panamera">
+         <p class="small-title">Panamera 4S Executive</p>
+
+         <div class="img">
+           <img src="../img/panamera.JPG"width="100%"  >
+
+         </div>
+         </br>
+       </div>
+
+  </div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+function getBenz(){
+  document.getElementById("benz").style.display ="block";
+  document.getElementById("audi").style.display ="none";
+  document.getElementById("porsche").style.display ="none";
+}
+function getAudi(){
+  document.getElementById("benz").style.display ="none";
+  document.getElementById("audi").style.display ="block";
+  document.getElementById("porsche").style.display ="none";
+}
+function getPorsche(){
+  document.getElementById("benz").style.display ="none";
+  document.getElementById("audi").style.display ="none";
+  document.getElementById("porsche").style.display ="block";
+}
+</script>
+  </body>
+</html>

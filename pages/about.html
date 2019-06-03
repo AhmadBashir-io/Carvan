@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title><link href="https://fonts.googleapis.com/css?family=Jura:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/index.css">
+    <style media="screen">
+    .past{display: block;}
+      .upcoming{display:none;}
+    </style>
+  </head>
+  <body class="about">
+
+<h1 class="title">About Us</h1>
+<div class="content-body">
+<div class="the-content">
+
+  CARVAN is largest online car market. It caters to needs of everyone,</br>
+   be it a family, business or individuals.</br>
+ We provide details and specifications of various models</br> offered by car companies.
+ </br></br>
+ <div class="sub-menu">
+   <a href="#" onclick="getPastEvents()">Past Events</a>
+   <a href="#" onclick="getUpcomingEvents()">upcoming events</a>
+ </div>
+</br>
+<div class="the-content">
+
+ <div class="past" id="past">
+ <p class="small-title"> Past Events</p>
+
+  <div class="img">
+    <img src="../img/hbc.PNG"width="100%"  >
+    <p class="small-title">2017 Porsche Auction</p>
+
+  </div>
+  </br>
+   <div class="img">
+     <img src="../img/mercedes.JPG"width="100%"  >
+     <p class="small-title">Christmas Mercedes Benz Showroom</p>
+
+   </div>
+   </br>
+ </div>
+ <div class="upcoming" id="upcoming">
+   <p class="small-title">Upcoming Events</p>
+
+    <div class="img">
+      <img src="../img/audi.JPG"width="100%"  >
+      <p class="small-title">2018 Audi Auction</p>
+
+    </div>
+    </br>
+ </div>
+
+ </div>
+</div>
+</div>
+<script type="text/javascript">
+
+function getPastEvents(){
+  document.getElementById("past").style.display ="block";
+  document.getElementById("upcoming").style.display ="none";
+}
+function getUpcomingEvents(){
+  document.getElementById("past").style.display ="none";
+  document.getElementById("upcoming").style.display ="block";
+}
+</script>
+  </body>
+</html>
