@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;font-family: 'Jura', sans-serif;
+
+}
+html{
+
+}
+body.header{
+  background: #000;
+  padding:  10px;
+  color: #fff;
+
+}
+.logo{
+  margin-left: 45.4%;
+  width: 91.5px;
+  height: 39px;
+}
+#porsche,#audi,#form{
+  display: none;
+}
+#form{
+  padding: 20px;
+  border-radius: 8px;
+  .color: #aaa;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
+}
+label{color:rgb(68, 211, 251);}
+.the-content,#form{
+  margin: 14px;
+}
+input,textarea{
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 6px;
+}
+input[type="submit"],.emailButton{
+  background:rgb(68, 211, 251); ;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.emailButton{
+  padding: 4px;
+  text-decoration: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+
+}
+input[type="submit"]:hover,.emailButton:hover{
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+
+}
+.subtitle{
+    text-align: left;
+    color: rgb(68, 211, 251);
+    font-size: 26px;
+    font-weight: 100;
+}
+.the-content{
+  padding: 30px 20px;
+  border-radius: 3px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+body.intro{
+  background: url("../img/hbc.JPG")no-repeat center fixed;
+  background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -webkit-background-size:cover;
+  text-align: center;
+  padding: 36px;
+  color: rgb(68, 211, 251);
+  font-size: 28px;
+  font-weight: 100;
+}
+body.nav{
+  padding: 5px;
+  background: #111;
+}
+body.nav a{
+  color: #eee;
+  transition: all 0.5s ease-in-out;
+  margin: 4px;
+  border-left: 2px solid #111;
+ border-radius: 2px;
+  text-decoration: none;
+}
+body.nav a:hover{
+  color: rgb(68, 211, 251);
+  background: #1a1a1a;
+  padding: 12px 12px 12px 15px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  border-left: 2px solid    rgb(23, 166, 206);
+
+}
+body.home{
+  background: #eee;
+}
+.title{
+  text-align: center;
+  color: rgb(68, 211, 251);
+  font-size: 30px;
+  font-weight: 100;
+}
+.center{
+  text-align: center;
+}
+.small-title{
+
+  color: rgb(68, 211, 251);
+  font-size: 22px;
+  font-weight: 100;
+}
+.sub-menu{
+  max-width: 310px;
+  padding: 10px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+.img{
+  margin: 10px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  padding:5px;
+}
+.sub-menu a{
+  color: #666;
+  text-decoration: none;
+  margin: 10px 5px;
+  transition: all 0.2s ease-in-out;
+}.sub-menu a:hover{
+  color: rgb(68, 211, 251);
+}
